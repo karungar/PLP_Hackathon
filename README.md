@@ -1,7 +1,7 @@
 # PLP_Hackathon
 ## Sylvia's Portfolio
 
-This is my personal portfolio website for a Hackathon as part of PowerLearnProject coursework showcasing my skills, projects, and contact information. The website is built using HTML, CSS, and JavaScript. My contact data is stored as a Json document.
+This is my personal portfolio website for a Hackathon as part of PowerLearnProject coursework showcasing my skills, projects, and contact information. The website is built using HTML, CSS, and JavaScript. The data is stored as a Json document.
 
 ## Table of Contents
 
