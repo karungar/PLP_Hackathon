@@ -209,26 +209,33 @@ section#hero {
   background-position: top;
   background-attachment: scroll;
   color: #fafafa;
+  border-radius: 8px; /* Add rounded corners */
   --color-accent: #8a2be2;
 }
 section#about {
-  background-color: #ffffff;
-  color: #333;
-  --color-accent: #ffd700;
+  background-color: #6b8cc0; /* Light gray background */
+  padding: var(--space-xl) var(--space-l);
+  color: #333; /* Dark text for readability */
+  text-align: center; /* Center-align content */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 section#work {
   background-color: #87ceeb;
   color: #0c0c0c;
+  border-radius: 8px; /* Add rounded corners */
   --color-accent: #2e8b57;
 }
 section#contact {
   background-color: #4b0082;
   color: #e6e6fa;
+  border-radius: 8px; /* Add rounded corners */
   --color-accent: #ff4500;
 }
 section#footer {
   background-color: #1a1a40;
   color: #fafafa;
+  border-radius: 8px; /* Add rounded corners */
   --color-accent: #8a2be2;
 }
 
@@ -236,12 +243,12 @@ section#footer {
 .site_header {
   padding: var(--space-s) 0;
   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9));
+  border-radius: 8px; /* Add rounded corners */
 }
 .site_header_nav ul li a {
   text-decoration: none;
   color: #fff;
 }
-
 /* hero css */
 .hero_content {
   padding: var(--space-3xl) 0;
@@ -266,6 +273,7 @@ section#footer {
   padding-top: var(--space-3xl);
 }*/
 .profile_photo {
+  margin: 0 auto; /* Center the figure */ 
   width: 150px; /* Adjust size as needed */
   height: 150px;
   border-radius: 50%; /* Makes the image circular */
@@ -274,27 +282,17 @@ section#footer {
   border: 3px solid #ccc; /* Optional: Adds a border around the image */
 }
 /* about section */
-.about_content {
-  padding: var(--space-xl) 0;
-  transform: skewX(-10deg);
+.about_content h2 {
+  font-size: var(--step-4); /* Larger heading size */
+  margin-bottom: var(--space-s); /* Add spacing below the heading */
+  color: #2e8b57; /* Accent color for the heading */
 }
-@media (max-width: 468px) {
-  .about_content {
-    transform: skewX(0deg);
-  }
+
+.about_content p {
+  font-size: var(--step-2); /* Slightly larger text */
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: var(--space-m); /* Add spacing below paragraphs */
 }
-.about_figure {
-  padding: var(--space-xl) 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid #ccc;
-  display: inline-block;
-  padding: 5px;
-}
-.about_img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-} 
 .about_caption {
   padding: var(--space-3xs) 0;
 }
